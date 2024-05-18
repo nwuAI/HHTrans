@@ -1,0 +1,32 @@
+2022-06-29 23:15:36,186 - mmseg - INFO - Environment info:
+------------------------------------------------------------
+sys.platform: win32
+Python: 3.7.12 | packaged by conda-forge | (default, Oct 26 2021, 05:35:01) [MSC v.1916 64 bit (AMD64)]
+CUDA available: True
+GPU 0: NVIDIA GeForce GTX 1050
+CUDA_HOME: D:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0
+NVCC: Not Available
+GCC: n/a
+PyTorch: 1.6.0
+PyTorch compiling details: PyTorch built with:
+  - C++ Version: 199711
+  - MSVC 192628806
+  - Intel(R) Math Kernel Library Version 2020.0.0 Product Build 20191125 for Intel(R) 64 architecture applications
+  - Intel(R) MKL-DNN v1.5.0 (Git Hash e2ac1fac44c5078ca927cb9b90e1b3066a0b2ed0)
+  - OpenMP 2019
+  - CPU capability usage: AVX2
+  - CUDA Runtime 10.2
+  - NVCC architecture flags: -gencode;arch=compute_37,code=sm_37;-gencode;arch=compute_50,code=sm_50;-gencode;arch=compute_60,code=sm_60;-gencode;arch=compute_61,code=sm_61;-gencode;arch=compute_70,code=sm_70;-gencode;arch=compute_75,code=sm_75;-gencode;arch=compute_37,code=compute_37
+  - CuDNN 7.6.5
+  - Magma 2.5.2
+  - Build settings: BLAS=MKL, BUILD_TYPE=Release, CXX_FLAGS=/DWIN32 /D_WINDOWS /GR /EHsc /w /bigobj -openmp:experimental -DNDEBUG -DUSE_FBGEMM -DUSE_VULKAN_WRAPPER, PERF_WITH_AVX=1, PERF_WITH_AVX2=1, PERF_WITH_AVX512=1, USE_CUDA=ON, USE_EXCEPTION_PTR=1, USE_GFLAGS=OFF, USE_GLOG=OFF, USE_MKL=ON, USE_MKLDNN=ON, USE_MPI=OFF, USE_NCCL=OFF, USE_NNPACK=OFF, USE_OPENMP=ON, USE_STATIC_DISPATCH=OFF, 
+
+TorchVision: 0.7.0
+OpenCV: 4.6.0
+MMCV: 1.1.5
+MMCV Compiler: MSVC 192729111
+MMCV CUDA Compiler: 10.2
+MMSegmentation: 0.6.0+unknown
+------------------------------------------------------------
+
+2022-06-29 23:15:36,186 - mmseg - INFO - Distributed training: False
