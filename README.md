@@ -37,7 +37,7 @@ nohup ./tools/dist_train_local.sh configs/bsds/EDTER_BIMLA_320x320_80k_bsds_bs_8
 
 ### nyud
 
-#### 训练nyud-hha数据集
+#### Traing the nyud-hha dataset
 
 The first stage
 
@@ -51,7 +51,7 @@ The fusion of the second stage
 
 nohup ./tools/dist_train_local.sh configs/nyud/EDTER_BIMLA_320x320_40k_nyud_hha_bs_4pvt_swin.py configs/nyud/EDTER_BIMLA_320x320_40k_nyud_hha_local8x8_bs_4pvtswin_densenet.py 1 >pvtswindensenet34nyud.log 2>&1 &
 
-#### 训练nyud-rgb数据集
+#### Training the nyud-rgb dataset
 
 The first stage
 
